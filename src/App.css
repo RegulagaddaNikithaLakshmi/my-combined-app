@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:#f0f2f5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background: linear-gradient(to right,#1c1e4ec0);
+  padding: 15px;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color:#762c78;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.input-box {
+  padding: 10px;
+  width: 350px;
+  border-radius: 8px;
+  border: 2px solid#1c1e4ec0;
+  margin-top: 15px;
+}
+
+.input-small {
+  padding: 8px;
+  width: 100px;
+  border-radius: 8px;
+  border: 2px solid ;
+  margin-top: 15px;
+}
+
+.dropdown {
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: 2px solid#1c1e4ec0;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(to right,#1c1e4ec0);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.btn:hover {
+  background: linear-gradient(to right, #1c1e4ec0);
+}
+
+.output-box {
+  margin-top: 20px;
+  padding: 15px;
+  background:#1c1e4ec0;
+  color: white; /* text white */
+  width: 350px;
+  border-radius: 8px;
+  border: 1px solid#1c1e4ec0;
+}
+
+.history {
+  margin-top: 20px;
+}
+/* App.css */
+
+/* Textareas and Input boxes bigger */
+textarea, input[type="text"], input[type="number"] {
+  padding: 20px;
+  font-size: 1.2rem;
+  min-height: 20px; /* Height increased */
+  width: 30%; /* Full width inside container */
+  box-sizing: border-box;
+  border-radius: 12px;
+
+}
+
+/* Generated output boxes */
+.output-box {
+  min-height: 10px; /* Height increased */
+  padding: 20px;
+  font-size: 1.2rem;
+  border-radius: 12px;
+
+}
+
+/* Button styling bigger */
+button {
+  height: 60px;
+  font-size: 1.2rem;
+  padding: 0 20px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+
