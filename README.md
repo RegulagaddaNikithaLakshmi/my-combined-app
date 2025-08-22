@@ -65,6 +65,6 @@ Interact with the features to see real-time updates and data fetching in action.
 Nikitha Regulagadda – Developer
 
 
-📄 License
+📄 License:
 
 This project is licensed under the MIT License.
